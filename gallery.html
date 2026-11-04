@@ -9,82 +9,73 @@
 <body>
 
     <header class="site-header">
-        <div class="container">
-            <a href="index.html" class="logo">
-                Savanna Brew Café
-            </a>
-
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="gallery.html" class="active">Gallery</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+        <div class="logo">
+            <img src="images/savanna-brew-logo.png" alt="Savanna Brew Café logo">
         </div>
+
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html" class="active">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </header>
 
     <main>
-        <section class="page-banner">
-            <div class="container">
+        <section class="page-banner gallery-banner">
+            <div class="banner-content">
                 <h1>Our Gallery</h1>
-                <p>Take a look at the delicious treats and welcoming atmosphere at Savanna Brew Café.</p>
+                <p>A glimpse into the Savanna Brew experience.</p>
             </div>
         </section>
 
-        <section class="gallery-section container">
-            <h2>Moments at Savanna Brew Café</h2>
+        <section class="gallery-section">
+            <div class="section-heading">
+                <h2>Moments at Savanna Brew</h2>
+                <p>From freshly brewed coffee to delicious treats, there's always something to enjoy.</p>
+            </div>
 
             <div class="gallery-grid">
 
                 <figure class="gallery-item">
-                    <img src="chocolates cake.jpg"
-                         alt="Delicious chocolate cake">
-                    <figcaption>Chocolate Cake</figcaption>
+                    <img src="images/latte.jpg" alt="Freshly prepared coffee latte">
+                    <figcaption>Our Signature Latte</figcaption>
                 </figure>
 
                 <figure class="gallery-item">
-                    <img src="croissants.jpg"
-                         alt="Freshly baked croissants">
-                    <figcaption>Fresh Croissants</figcaption>
+                    <img src="images/cappuccino.jpg" alt="Fresh cappuccino">
+                    <figcaption>Perfectly Brewed Cappuccino</figcaption>
                 </figure>
 
                 <figure class="gallery-item">
-                    <img src="fruit tarts.jpg"
-                         alt="Fresh fruit tarts">
-                    <figcaption>Fruit Tarts</figcaption>
+                    <img src="images/iced-coffee.jpg" alt="Chilled iced coffee">
+                    <figcaption>Refreshing Iced Coffee</figcaption>
                 </figure>
 
                 <figure class="gallery-item">
-                    <img src="iced coffee.jpg"
-                         alt="Refreshing iced coffee">
-                    <figcaption>Iced Coffee</figcaption>
+                    <img src="images/iced-latte.jpg" alt="Iced latte served cold">
+                    <figcaption>Our Iced Latte</figcaption>
                 </figure>
 
                 <figure class="gallery-item">
-                    <img src="iced latte.jpg"
-                         alt="Iced latte served in a glass">
-                    <figcaption>Iced Latte</figcaption>
+                    <img src="images/croissants.jpg" alt="Freshly baked croissants">
+                    <figcaption>Freshly Baked Croissants</figcaption>
                 </figure>
 
                 <figure class="gallery-item">
-                    <img src="latte.jpg"
-                         alt="Freshly prepared latte">
-                    <figcaption>Fresh Latte</figcaption>
+                    <img src="images/chocolate-cake.jpg" alt="Chocolate cake">
+                    <figcaption>Chocolate Treats</figcaption>
                 </figure>
 
                 <figure class="gallery-item">
-                    <img src="muffin.jpg"
-                         alt="Freshly baked muffin">
-                    <figcaption>Fresh Muffins</figcaption>
+                    <img src="images/fruit-tart.jpg" alt="Fresh fruit tart">
+                    <figcaption>Fresh Fruit Tart</figcaption>
                 </figure>
 
                 <figure class="gallery-item">
-                    <img src="about-owner.jpg"
-                         alt="Portrait of the café founder">
-                    <figcaption>Our Founder</figcaption>
+                    <img src="images/muffin.jpg" alt="Freshly baked muffin">
+                    <figcaption>Our Delicious Muffins</figcaption>
                 </figure>
 
             </div>
@@ -92,20 +83,33 @@
     </main>
 
     <footer class="site-footer">
-        <div class="container">
-            <p>&copy; 2026 Savanna Brew Café. All rights reserved.</p>
-            <p>Brewed in Kenya. Served with love.</p>
+        <div class="footer-container">
 
-            <div class="social-links">
-                <a href="https://www.instagram.com/"
-                   target="_blank"
-                   rel="noopener noreferrer">Instagram</a>
-
-                <a href="https://www.facebook.com/"
-                   target="_blank"
-                   rel="noopener noreferrer">Facebook</a>
+            <div class="footer-column">
+                <h3>Visit Us</h3>
+                <p>14 Coffee Lane, Westlands, Nairobi</p>
+                <p>Phone: +254 700 123 456</p>
+                <p>Email: hello@savannabrew.example</p>
             </div>
+
+            <div class="footer-column">
+                <h3>Opening Hours</h3>
+                <p>Monday – Friday: 7 AM – 9 PM</p>
+                <p>Saturday: 8 AM – 10 PM</p>
+                <p>Sunday: 9 AM – 6 PM</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <p><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+                <p><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></p>
+            </div>
+
         </div>
+
+        <p class="copyright">
+            &copy; 2026 Savanna Brew Café. All rights reserved.
+        </p>
     </footer>
 
 </body>
