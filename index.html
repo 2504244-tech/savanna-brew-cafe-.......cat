@@ -3,115 +3,218 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Home | Savanna Brew Café</title>
+
+    <meta name="description" content="Welcome to Savanna Brew Café in Westlands, Nairobi. Enjoy freshly brewed Kenyan coffee, delicious pastries and a warm café experience.">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-    <!-- Header and Navigation -->
-    <header>
-        <nav class="navbar">
-            <a href="index.html" class="logo">Savanna Brew Café</a>
+    <!-- WEBSITE HEADER -->
+    <header class="site-header">
+        <div class="container">
 
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+            <a href="index.html" class="logo">
+                Savanna Brew Café
+            </a>
+
+            <!-- MAIN NAVIGATION -->
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
     </header>
 
-    <!-- Main Home Page Content -->
+    <!-- MAIN CONTENT -->
     <main>
 
-        <!-- Hero Section -->
+        <!-- HERO SECTION -->
         <section class="hero">
             <div class="hero-content">
+
                 <h1>Brewed in Kenya. Served with love.</h1>
 
                 <p>
-                    Welcome to Savanna Brew Café, your cosy corner in Westlands
-                    where every cup tells a story. We roast and brew coffee from
-                    the highlands of Nyeri and Kiambu, and pair it with fresh
-                    pastries baked every morning. Come in, relax, and taste
-                    the difference.
+                    Welcome to Savanna Brew Café, your cosy corner in
+                    Westlands, Nairobi. Enjoy freshly brewed Kenyan coffee,
+                    delicious baked treats and a welcoming atmosphere.
+                    Come in, relax and taste the difference.
                 </p>
 
-                <a href="menu.html" class="btn">Explore Our Menu</a>
-            </div>
-        </section>
-
-        <!-- Favourite Items -->
-        <section class="favourites">
-            <h2>Our Favourites</h2>
-
-            <div class="card-container">
-
-                <article class="card">
-                    <img src="latte.jpg"
-                         alt="Freshly prepared caffe latte">
-                    <h3>Caffe Latte</h3>
-                    <p>Smooth espresso blended with creamy milk.</p>
-                </article>
-
-                <article class="card">
-                    <img src="cappuccino.jpg"
-                         alt="Cappuccino topped with milk foam">
-                    <h3>Cappuccino</h3>
-                    <p>Rich espresso topped with steamed milk and foam.</p>
-                </article>
-
-                <article class="card">
-                    <img src="croissant.jpg"
-                         alt="Freshly baked golden butter croissant">
-                    <h3>Butter Croissant</h3>
-                    <p>A flaky, freshly baked treat to enjoy with your coffee.</p>
-                </article>
+                <a href="menu.html" class="btn">
+                    Explore Our Menu
+                </a>
 
             </div>
         </section>
 
-        <!-- Contact Call to Action -->
-        <section class="visit">
-            <h2>Visit Savanna Brew Café</h2>
-            <p>Come and enjoy freshly brewed Kenyan coffee with us.</p>
-            <a href="contact.html" class="btn">Reserve a Table</a>
+        <!-- INTRODUCTION -->
+        <section class="featured-section">
+            <div class="container">
+
+                <h2>Welcome to Savanna Brew Café</h2>
+
+                <p>
+                    At Savanna Brew Café, we believe that every cup of
+                    coffee tells a story. We bring people together through
+                    great coffee, fresh pastries and warm hospitality.
+                </p>
+
+                <p>
+                    Whether you are meeting friends, enjoying a quiet
+                    moment or taking a break from your busy day,
+                    we have something special waiting for you.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- FEATURED PRODUCTS -->
+        <section class="featured-section">
+            <div class="container">
+
+                <h2>Our Favourites</h2>
+
+                <p>
+                    Discover some of the delicious treats and drinks
+                    available at Savanna Brew Café.
+                </p>
+
+                <div class="featured-grid">
+
+                    <!-- PRODUCT ONE -->
+                    <article class="featured-card">
+
+                        <img
+                            src="images/latte.jpg"
+                            alt="Freshly prepared café latte">
+
+                        <h3>Café Latte</h3>
+
+                        <p>
+                            Smooth espresso blended with creamy milk
+                            for a delicious coffee experience.
+                        </p>
+
+                    </article>
+
+                    <!-- PRODUCT TWO -->
+                    <article class="featured-card">
+
+                        <img
+                            src="images/iced latte.jpg"
+                            alt="Refreshing iced latte">
+
+                        <h3>Iced Latte</h3>
+
+                        <p>
+                            A refreshing combination of espresso,
+                            cold milk and ice.
+                        </p>
+
+                    </article>
+
+                    <!-- PRODUCT THREE -->
+                    <article class="featured-card">
+
+                        <img
+                            src="images/croissants.jpg"
+                            alt="Freshly baked golden croissants">
+
+                        <h3>Fresh Croissants</h3>
+
+                        <p>
+                            Golden, flaky and freshly baked pastries
+                            perfect for your coffee break.
+                        </p>
+
+                    </article>
+
+                </div>
+
+                <br>
+
+                <a href="menu.html" class="btn">
+                    View Full Menu
+                </a>
+
+            </div>
+        </section>
+
+        <!-- CALL TO ACTION -->
+        <section class="page-banner">
+            <div class="container">
+
+                <h2>Come and Experience the Savanna Brew Difference</h2>
+
+                <p>
+                    Visit us in Westlands, Nairobi, and enjoy
+                    freshly brewed coffee and delicious treats.
+                </p>
+
+                <a href="contact.html" class="btn">
+                    Make a Reservation
+                </a>
+
+            </div>
         </section>
 
     </main>
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-container">
+    <!-- WEBSITE FOOTER -->
+    <footer class="site-footer">
 
-            <div>
-                <h3>Our Address</h3>
-                <p>14 Coffee Lane, Westlands, Nairobi</p>
-                <p>Phone: +254 700 123 456</p>
+        <div class="container">
+
+            <h3>Savanna Brew Café</h3>
+
+            <p>Brewed in Kenya. Served with love.</p>
+
+            <p>
+                14 Coffee Lane, Westlands, Nairobi
+            </p>
+
+            <p>
+                Phone: +254 700 123 456
+            </p>
+
+            <p>
+                Email: hello@savannabrew.example
+            </p>
+
+            <div class="social-links">
+
+                <a href="https://www.instagram.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Instagram
+                </a>
+
+                <a href="https://www.facebook.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Facebook
+                </a>
+
             </div>
 
-            <div>
-                <h3>Opening Hours</h3>
-                <p>Mon–Fri: 7:00 AM – 9:00 PM</p>
-                <p>Saturday: 8:00 AM – 10:00 PM</p>
-                <p>Sunday: 9:00 AM – 6:00 PM</p>
-            </div>
-
-            <div>
-                <h3>Follow Us</h3>
-                <p><a href="https://www.instagram.com/"
-                      target="_blank" rel="noopener noreferrer">Instagram</a></p>
-                <p><a href="https://www.facebook.com/"
-                      target="_blank" rel="noopener noreferrer">Facebook</a></p>
-            </div>
+            <p>
+                &copy; 2026 Savanna Brew Café.
+                All rights reserved.
+            </p>
 
         </div>
 
-        <p class="copyright">
-            &copy; 2026 Savanna Brew Café. All rights reserved.
-        </p>
     </footer>
 
 </body>
