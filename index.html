@@ -3,108 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to Savanna Brew Café in Westlands, Nairobi. Enjoy freshly brewed Kenyan coffee and delicious pastries.">
     <title>Home | Savanna Brew Café</title>
-
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
     <!-- Header and Navigation -->
     <header class="site-header">
-        <div class="header-container">
+        <a href="index.html" class="logo">
+            <img src="images/savanna-brew-logo.png"
+                 alt="Savanna Brew Café logo">
+        </a>
 
-            <a href="index.html" class="logo">
-                <img src="savanna-brew-logo.png"
-                     alt="Savanna Brew Café logo">
-            </a>
-
-            <nav class="main-nav" aria-label="Main navigation">
-                <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-
-        </div>
+        <nav class="main-nav">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </header>
 
-    <!-- Main Content -->
+    <!-- Home Hero Section -->
     <main>
-
-        <!-- Hero Section -->
         <section class="hero">
             <div class="hero-content">
-                <p class="hero-tagline">
-                    Brewed in Kenya. Served with love.
-                </p>
-                 <img src="hero.jpeg">
+                <p class="tagline">Brewed in Kenya. Served with love.</p>
+
                 <h1>Welcome to Savanna Brew Café</h1>
 
                 <p>
-                    Your cosy corner in Westlands where every cup tells
-                    a story. We roast and brew coffee from the highlands
-                    of Nyeri and Kiambu, and pair it with fresh pastries
-                    baked every morning. Come in, relax, and taste the difference.
+                    Your cosy corner in Westlands where every cup tells a
+                    story. We serve coffee from the highlands of Nyeri and
+                    Kiambu, paired with fresh pastries baked every morning.
+                    Come in, relax, and taste the difference.
                 </p>
 
-                <a href="menu.html" class="btn">
-                    Explore Our Menu
-                </a>
+                <a href="menu.html" class="btn">Explore Our Menu</a>
             </div>
         </section>
 
-        <!-- Featured Section -->
+        <!-- Featured Items -->
         <section class="featured-section">
             <div class="section-heading">
-                <p class="section-subtitle">A Taste of Savanna</p>
-                <h2>Our Customer Favourites</h2>
+                <h2>A Taste of Savanna Brew</h2>
                 <p>
-                    Discover some of the delicious treats waiting for you
-                    at Savanna Brew Café.
+                    Enjoy freshly brewed coffee and delicious treats
+                    made to brighten your day.
                 </p>
             </div>
 
             <div class="featured-grid">
 
                 <article class="featured-card">
-                    <img src="latte.jpg"
-                         alt="Freshly prepared café latte">
-
-                    <div class="card-content">
-                        <h3>Classic Café Latte</h3>
-                        <p>
-                            Smooth espresso blended with creamy steamed milk.
-                        </p>
-                    </div>
+                    <img src="images/latte.jpg"
+                         alt="A freshly prepared latte">
+                    <h3>Our Signature Latte</h3>
+                    <p>Smooth coffee made with creamy milk.</p>
                 </article>
 
                 <article class="featured-card">
-                    <img src="iced-coffee.jpg"
+                    <img src="images/iced-coffee.jpg"
                          alt="Refreshing iced coffee">
-
-                    <div class="card-content">
-                        <h3>Refreshing Iced Coffee</h3>
-                        <p>
-                            A cool and refreshing coffee treat for any day.
-                        </p>
-                    </div>
+                    <h3>Refreshing Iced Coffee</h3>
+                    <p>A cool coffee treat for a warm day.</p>
                 </article>
 
                 <article class="featured-card">
-                    <img src="croissants.jpg"
-                         alt="Freshly baked golden croissants">
-
-                    <div class="card-content">
-                        <h3>Freshly Baked Croissants</h3>
-                        <p>
-                            Golden, flaky pastries freshly baked every morning.
-                        </p>
-                    </div>
+                    <img src="images/croissant.jpg"
+                         alt="Freshly baked croissant">
+                    <h3>Freshly Baked Treats</h3>
+                    <p>Delicious pastries to enjoy with your coffee.</p>
                 </article>
 
             </div>
@@ -113,61 +82,53 @@
         <!-- Contact Call to Action -->
         <section class="home-cta">
             <h2>Your Coffee Moment Awaits</h2>
-
             <p>
-                Whether you are meeting friends, taking a break or simply
-                enjoying your favourite cup, we have a place for you.
+                Visit us for good coffee, a welcoming atmosphere
+                and a little taste of Kenya.
             </p>
-
-            <a href="contact.html" class="btn">
-                Visit Us or Reserve a Table
-            </a>
+            <a href="contact.html" class="btn">Visit or Contact Us</a>
         </section>
-
     </main>
 
     <!-- Footer -->
     <footer class="site-footer">
         <div class="footer-container">
 
-            <section class="footer-column">
-                <h3>Find Us</h3>
+            <div class="footer-column">
+                <h3>Visit Us</h3>
                 <p>14 Coffee Lane, Westlands, Nairobi</p>
                 <p>Phone: +254 700 123 456</p>
                 <p>Email: hello@savannabrew.example</p>
-            </section>
+            </div>
 
-            <section class="footer-column">
+            <div class="footer-column">
                 <h3>Opening Hours</h3>
-                <p>Monday – Friday: 7:00 AM – 9:00 PM</p>
-                <p>Saturday: 8:00 AM – 10:00 PM</p>
-                <p>Sunday: 9:00 AM – 6:00 PM</p>
-            </section>
+                <p>Monday – Friday: 7 AM – 9 PM</p>
+                <p>Saturday: 8 AM – 10 PM</p>
+                <p>Sunday: 9 AM – 6 PM</p>
+            </div>
 
-            <section class="footer-column">
+            <div class="footer-column">
                 <h3>Follow Us</h3>
                 <p>
-                    <a href="https://www.instagram.com/savannabrew/"
+                    <a href="https://www.instagram.com/"
                        target="_blank" rel="noopener noreferrer">
-                        Instagram @savannabrew
+                        Instagram
                     </a>
                 </p>
-
                 <p>
-                    <a href="https://www.facebook.com/savannabrewcafe/"
+                    <a href="https://www.facebook.com/"
                        target="_blank" rel="noopener noreferrer">
-                        Facebook /savannabrewcafe
+                        Facebook
                     </a>
                 </p>
-            </section>
+            </div>
 
         </div>
 
-        <div class="footer-bottom">
-            <p>
-                &copy; 2026 Savanna Brew Café. All rights reserved.
-            </p>
-        </div>
+        <p class="copyright">
+            &copy; 2026 Savanna Brew Café. All rights reserved.
+        </p>
     </footer>
 
 </body>
