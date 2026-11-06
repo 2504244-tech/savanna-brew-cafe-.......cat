@@ -105,7 +105,7 @@ p {
 }
 
 .hero h1 {
-    color: #FFFFFF;
+    color: #F5F5F5;
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -540,12 +540,4 @@ footer a:hover {
         padding: 9px;
         font-size: 14px;
     }
-   /* Make the homepage heading white */
-
-.hero .hero-content h1,
-.hero h1 {
-    color: #ffffff !important;
-    -webkit-text-fill-color: #ffffff !important;
-    text-shadow: 2px 2px 6px #2d1c14 !important;
-}
 }
